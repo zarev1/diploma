@@ -1,10 +1,21 @@
-/*telo*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Overlock&family=Roboto:wght@100;400&display=swap');
+
+:root {
+    --brandСolor: #2598D2;
+    --btnColor: #3366FF;
+    --bgColor: #CBD6F7;
+    --grayColor: #E5E1E1;
+    --title: 'Lora', serif;
+    --subtitle: 'Overlock', cursive;
+    --paragrath: 'Roboto', sans-serif;
+}
+
 html,
 body {
     height: 100% !important;
     position: relative;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
+    font-family: var(--paragrath);
+    font-size: 20px;
     line-height: 1.4;
     color: #000;
     min-width: 320px;
@@ -12,302 +23,23 @@ body {
     margin: 0px !important;
 }
 
-/*/telo*/
-
-/*header*/
-.navbar {
-    width: 100%;
-    justify-content: center;
-}
-
-.container1 {
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-brand {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-menu {
-    list-style: none;
-    padding: 0 12px;
-    margin-bottom: 0;
-    display: flex;
-    gap: 1rem;
-}
-
-.navbar-menu li {
-    display: flex;
-}
-
-.navbar-menu li a {
-    padding: 2px 22px;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    background-color: #3366FF;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.navbar-wrap {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-/*/header*/
-/*content*/
-.page {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-
-.main {
-    flex: 1 1 auto;
-}
-
-._card {
-    padding-top: 57px;
-    border-top: 1px solid #DAE0E8;
-    margin-top: 45px;
-}
-
-.cont-1 {
-    margin: 25px 25px 25px 25px;
-}
-
-.img-card {
-    max-width: 90px;
-    border: solid 1px;
-    border-radius: 29px;
-    padding: 20px;
-    border-color: #3366FF;
-}
-
-.my-carousel {
-    padding: 0;
-}
-
-.cont-c {
-    text-align: center;
-    padding: 25px;
-    margin-bottom: 50px;
-}
-
-.bt-1 {
-    color: white;
-    background: #3366FF;
-}
-
-.bt-1:hover {
-    color: #3366FF;
-    border-color: #3366FF;
-    background: white;
-    border-radius: 6px;
-}
-
-.cont-2 {
-    padding: 40px 40px 40px 40px;
-    background: #f8f8f8;
-    margin: 40px 40px 40px 40px;
-}
-
-.img-cont-2 {
-    display: flex;
-    width: 30%;
-}
-
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-    display: flex;
-    text-align: justify;
-}
-
-.news_card-list {
-    margin-top: -20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
-
-.news_card-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.news_card {
-    margin: 10px 10px 10px 10px;
-}
-
-.contaner-adv {
-    max-width: 1230px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-    /* margin-bottom: 50px; */
-}
-
-.load-more-button {
-    border: solid;
-    border-radius: 10px;
-    background-color: #3366FF;
-    color: white;
-}
-
-.btn-outline-revers-primary {
-    outline: none !important;
-    display: inline-block;
-    background: #3366FF;
-    color: #fff;
-    border: 1px solid #3366FF;
-    padding: 10px 30px;
-    text-decoration: none;
-    line-height: 1;
-    text-align: center;
-    width: 300px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    text-shadow: none;
-    height: 60px;
-    line-height: 58px;
-    border-radius: 9.5px;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "helveticaneuecyrmedium", "helveticaneuecyrroman", Arial, Verdana;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-.btn-outline-revers-primary:hover {
-    background: #fff;
-    color: #3366FF;
-    text-decoration: none;
-    border-color: currentColor;
-}
-
-.btn-block {
-    text-align: center;
-}
-
-.maps {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-.text-maps {
-    text-align: center;
-    color: #3366FF;
-    font-size: 25px;
-    font-weight: bold;
-    padding-top: 57px;
-    border-top: 1px solid #DAE0E8;
-    background: #f1f5f9;
-    margin: 0px 0px 1px 0px;
-    padding-bottom: 57px;
-    border-bottom: 1px solid #DAE0E8;
-}
-
-/*footer*/
-.py-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-}
-
-.pb-3 {
-    padding-bottom: 1rem !important;
-}
-
-.mb-3 {
-    margin-bottom: 1rem !important;
-}
-
-.justify-content-center {
-    justify-content: center !important;
-}
-
-.nav {
-    --bs-nav-link-padding-x: 1rem;
-    --bs-nav-link-padding-y: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.px-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
-}
-
-.nav-link {
-    display: block;
-    padding-right: 50px !important;
-    text-decoration: none;
-    background: 0 0;
-    border: 0;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-
-}
-
-.text-body-secondary {
-    --bs-text-opacity: 1;
-    color: #b5b1b1eb !important;
-}
-
-.nav-link:hover {
-    --bs-text-opacity: 1;
-    color: #ffffff !important;
-}
-
-.text-center {
-    text-align: center !important;
-}
-
-footer {
-    background-color: #212529;
-    margin-top: auto;
-}
-
-/*/footer*/
-
-/* header */
-
-:root {
-    --brandСolor: #2598D2;
-    --btnColor: #3366FF;
-    --bgColor: #CBD6F7;
-    --grayColor: #E5E1E1;
+h1 {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    color: #041D67;
 }
 
 .navbar-nav {
     --bs-nav-link-color: #ffffff;
     --bs-nav-link-hover-color: var(--grayColor);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
 }
 
 .navbar-collapse input,
@@ -392,6 +124,8 @@ footer {
 
 .card img {
     max-height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .shop-cards .card .card-body span {
@@ -424,6 +158,7 @@ footer {
 .btn-rectan {
     padding: 15px 30px;
     border-radius: 10px;
+    max-width: 350px;
 }
 
 .stock .card {
@@ -441,6 +176,10 @@ footer {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 20%;
+}
+
+.about-content img {
+    border-radius: 20px;
 }
 
 .about-text {
@@ -471,15 +210,91 @@ footer {
     border-radius: 20px;
 }
 
+.maps {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.text-maps {
+    text-align: center;
+    color: var(--btnColor);
+    padding-top: 57px;
+    border-top: 1px solid #DAE0E8;
+    background: #f1f5f9;
+    margin: 0px 0px 1px 0px;
+    padding-bottom: 57px;
+    border-bottom: 1px solid #DAE0E8;
+}
+
 footer nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0;
 }
 
 .footer-info,
-.footer-info a{
+.footer-info a {
     color: #fff;
+}
+
+.project-type {
+    font-family: var(--paragrath);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.product-name,
+.product-price {
+    border-top: 2px solid #CBD6F7;
+    border-bottom: 2px solid #CBD6F7;
+    padding: 30px 2%;
+}
+
+.table-item {
+    border: 1px solid var(--brandСolor);
+}
+
+.table-name {
+    padding: 15px 0;
+}
+
+.table-item:nth-child(even) {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.shopping-basket {
+    align-items: center;
+    border: 3px solid var(--btnColor);
+    border-radius: 20px;
+    margin: 30px 2%;
+}
+
+.basket-count {
+    text-decoration-line: underline;
+    color: #545454;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn.dropdown-toggle-split:first-child,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn:nth-child(n+3),
+.btn-group>:not(.btn-check)+.btn {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }

@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <title>Акции и скидки в СКИФ</title>
+    <title>Товар "..."</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,57 +90,140 @@
             </div>
         </nav>
     </header>
-    <!-- stocks-section -->
-    <section class="container text-center">
-        <h1 class="text-uppercase my-5">Акции и скидки</h1>
-        <div class="stock d-flex justify-content-center flex-wrap gap-5 mb-5">
-            <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
+    <!-- product-description-section -->
+    <section class="container" style="padding: 50px 0;">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/laminat.jpg" alt="laminat">
+            </div>
+            <div class="col-sm-8 p-4">
+                <h3 class="product-name">Ламинат Kronostar Symbio, дуб лигурия, 1380х193х8 мм</h3>
+                <h3 class="my-5">Описание товара</h3>
+                <p>Предназначен для использования в жилых помещениях с любой проходимостью и в коммерческих
+                    помещениях с высокой степенью проходимости: аэропорты, гостиничные комплексы и др.</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <!-- characteristic-table -->
+            <div class="col-sm-7">
+                <h3 class="text-center table-item table-name mb-0">Характеристики товара</h3>
+                <div class="row row-cols-2 mx-0">
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
+                    <div class="col table-item">Вес брутто, кг:</div>
+                    <div class="col table-item">15,00</div>
+                    <div class="col table-item">Тип товара</div>
+                    <div class="col table-item">Ламинат</div>
                 </div>
             </div>
-            <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
+            <div class="col-sm-5">
+                <div class="product-price text-center">
+                    <h3>Цена за упаковку:</h3>
+                    <h2>1729 ₽</h2>
+                </div>
+                <div class="row justify-content-md-center shopping-basket">
+                    <div class="col col-lg-2">
+                        <img src="img/shopping_basket.svg" alt="basket">
+                    </div>
+                    <div class="col-md-auto">
+                        <h2>В корзине</h2>
+                    </div>
+                    <div class="col col-lg-2">
+                        <h2 class="basket-count">0</h2>
+                    </div>
+                </div>
+                <div class="btn-group buttons" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-rectan">-</button>
+                    <button type="button" class="btn btn-rectan">+</button>
+                </div>
+                <div class="d-flex justify-content-end gap-1 mt-3">
+                    <h3>Итого:</h3>
+                    <h3>0</h3>
+                    <h3>₽</h3>
                 </div>
             </div>
         </div>
-        <div class="stock d-flex justify-content-center flex-wrap gap-5 mb-5">
+    </section>
+    <!-- recommend-section -->
+    <section class="container">
+        <h3 class="text-center mb-5">С этим товаром также покупают</h3>
+        <div class="shop-cards">
             <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
+                <a href="product.html">
+                    <img src="img/card1.png" class="card-img-top" alt="image">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Цена</span>
+                        <span>2690 ₽</span>
+                    </div>
+                    <p class="card-text">Полотно дверное Olovi, глухое, беленый дуб, б/п, с/ф (700х2000х35 мм)</p>
+                    <button type="button" class="btn btn-round">В корзину</button>
                 </div>
             </div>
             <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
+                <a href="product.html">
+                    <img src="img/card1.png" class="card-img-top" alt="image">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Цена</span>
+                        <span>2690 ₽</span>
+                    </div>
+                    <p class="card-text">Полотно дверное Olovi, глухое, беленый дуб, б/п, с/ф (700х2000х35 мм)</p>
+                    <button type="button" class="btn btn-round">В корзину</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html">
+                    <img src="img/card1.png" class="card-img-top" alt="image">
+                </a>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <span>Цена</span>
+                        <span>2690 ₽</span>
+                    </div>
+                    <p class="card-text">Полотно дверное Olovi, глухое, беленый дуб, б/п, с/ф (700х2000х35 мм)</p>
+                    <button type="button" class="btn btn-round">В корзину</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html">
+                    <img src="img/card1.png" class="card-img-top" alt="image">
+                </a>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <span>Цена</span>
+                        <span>2690 ₽</span>
+                    </div>
+                    <p class="card-text">Полотно дверное Olovi, глухое, беленый дуб, б/п, с/ф (700х2000х35 мм)</p>
+                    <button type="button" class="btn btn-round">В корзину</button>
                 </div>
             </div>
         </div>
-        <div class="stock d-flex justify-content-center flex-wrap gap-5 mb-5">
-            <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/stock-image.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h5 class="card-text">До конца лета</h5>
-                    <p class="card-text">Покупая единовременно клей для плитки, затирку и плитку</p>
-                </div>
-            </div>
-        </div>
+        <a href="shop.html" class="btn btn-rectan my-5">Оформить заказ</a>
     </section>
     <!-- benefit-section -->
     <section class="d-flex benefits" style="background: #CBD6F7;">
